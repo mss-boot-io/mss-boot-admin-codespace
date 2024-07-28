@@ -1,0 +1,17 @@
+{
+    "name": "mss-boot-admin Codespace",
+    "workspaceFolder": "/workspaces/mss-boot-admin-codespace",
+    "service": "app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "golang.go"
+            ]
+        }
+    },
+    "postCreateCommand": "cd frontend && npm install && cd ../backend && go mod download",
+    "forwardPorts": [3000, 3001]
+}
+  

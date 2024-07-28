@@ -1,2 +1,2 @@
 # mss-boot-admin-codespace
-codespace workspace
+mss-boot-admin codespace workspace
