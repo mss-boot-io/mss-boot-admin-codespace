@@ -10,8 +10,7 @@
                 "golang.go"
             ]
         }
-    },
-    "postCreateCommand": "cd frontend && npm install && cd ../backend && go mod download",
-    "forwardPorts": [3000, 3001]
+    }，
+    "forwardPorts": [8000, 8080]
 }
   
